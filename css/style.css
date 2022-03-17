@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  font-family: "Supermercado One", cursive;
+}
+
+.header {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  box-shadow: 0px 2px 12px rgb(250, 86, 45);
+  padding: 7px 20px 7px 20px;
+}
+.logo {
+  width: 5%;
+  height: 5%;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+.logo:hover {
+  box-shadow: 0px 1px 15px rgb(250, 86, 45);
+  transition: ease-in-out 400ms;
+}
+.list-menu {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0px 15px 0px 15px;
+  list-style: none;
+  font-size: 20px;
+}
+li {
+  padding: 10px 20px 10px 20px;
+  margin: 0px 15px 0px 15px;
+  cursor: pointer;
+}
+li:hover {
+  box-shadow: 0px 1px 15px rgb(250, 86, 45);
+  border-radius: 10px;
+  border: 1px solid rgb(250, 86, 45);
+  transition: ease-in-out 350ms;
+  outline: none;
+  padding: 15px 30px 15px 30px;
+}
+li:active {
+  border-radius: 10px;
+  background-color: rgb(226, 226, 226);
+  color: rgb(34, 34, 34);
+  box-shadow: 0px 1px 15px rgb(0, 0, 0);
+  transition: ease-in-out 10ms;
+}
+.button-menu {
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 0px 20px 0px 20px;
+  cursor: pointer;
+  background-color: rgb(250, 86, 45);
+  border-radius: 10px;
+  color: rgb(36, 36, 36);
+}
+.button-menu:hover {
+  box-shadow: 0px 1px 15px rgb(250, 86, 45);
+  border-radius: 10px;
+  border: 1px solid rgb(250, 86, 45);
+  transition: ease-in-out 350ms;
+  outline: none;
+}
+.button-menu:active {
+  border-radius: 10px;
+  background-color: rgb(39, 39, 39);
+  color: rgb(245, 245, 245);
+
+  transition: ease-in-out 10ms;
+}
+.main {
+  padding-top: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.warning {
+  display: none;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 100%;
+  background-color: rgb(241, 241, 241);
+  color: rgb(192, 16, 16);
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.card-int {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 30%;
+}
+.card-hero {
+  margin-right: 50px;
+  margin-left: 50px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 1px 15px rgb(250, 86, 45);
+  position: relative;
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 20%;
+  overflow: hidden;
+  transition: ease-in-out 400ms;
+}
+.card-hero:hover {
+  box-shadow: 0px 1px 15px rgb(255, 228, 222);
+}
+.image {
+  background-image: url(/img/LPZ4CpGH5hk.jpg);
+  background-position: center;
+  background-size: contain;
+}
+
+.link-text {
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  outline: none;
+  background-color: transparent;
+  font-size: 30px;
+  transition: ease-in-out 300ms;
+}
+.link-text:hover {
+  color: rgb(245, 104, 10);
+  font-size: 45px;
+  text-shadow: 1px 0px 1.5px rgb(54, 54, 54);
+ 
+}
